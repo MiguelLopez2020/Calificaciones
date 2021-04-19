@@ -1,0 +1,27 @@
+.form {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.table1 {
+    background-color: darkgray;
+    text-align: center;
+    border: darkslategrey solid 1px;
+    margin-left: 25%;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all {
+    text-align: center;
+}

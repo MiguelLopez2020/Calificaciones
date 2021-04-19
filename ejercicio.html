@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Colegio</title>
+    <link rel="stylesheet" href="ejercicio.css">
+</head>
+
+<body>
+
+    <div class="all">
+        <div class="form">
+            <div class="header">
+                <img src="img1.jpeg" alt="">
+                <h3>Registre las notas del estudiante</h3>
+            </div>
+            <form action="">
+                <table class="table1">
+                    <tr>
+                        <th>Asignatura </th>
+                        <th>Calificacion por materia</th>
+                        <th>Calificacion Examen</th>
+                        <th>Calificacion Asistencias</th>
+                    </tr>
+                    <tr>
+                        <th>Matematicas</th>
+                        <td><input id="matM" type="number" placeholder="ingrese la calificacion"></td>
+                        <td><input id="examM" type="number" placeholder="ingrese la calificacion"></td>
+                        <td><input id="asisM" type="number" placeholder="ingrese la calificacion"></td>
+                    </tr>
+                    <tr>
+                        <th>Ciencias</th>
+                        <td><input id="matS"type="number" placeholder="ingrese la calificacion"></td>
+                        <td><input id="examS"type="number" placeholder="ingrese la calificacion"></td>
+                        <td><input id="asisS"type="number" placeholder="ingrese la calificacion"></td>
+                    </tr>
+                    <tr>
+                        <th>Sociales</th>
+                        <td><input id="matSo"type="number" placeholder="ingrese la calificacion"></td>
+                        <td><input id="ExamSo"type="number" placeholder="ingrese la calificacion"></td>
+                        <td><input id="asisSo"type="number" placeholder="ingrese la calificacion"></td>
+                    </tr>
+                    <tr>
+                        <th>Español</th>
+                        <td><input id="matSp"type="number" placeholder="ingrese la calificacion"></td>
+                        <td><input id="ExamSp"type="number" placeholder="ingrese la calificacion"></td>
+                        <td><input id="asisSp"type="number" placeholder="ingrese la calificacion"></td>
+                    </tr>
+                    <tr>
+                        <th>Artes</th>
+                        <td><input id="matA"type="number" placeholder="ingrese la calificacion"></td>
+                        <td><input id="ExamA"type="number" placeholder="ingrese la calificacion"></td>
+                        <td><input id="asisA"type="number" placeholder="ingrese la calificacion"></td>
+                    </tr>
+
+                    <tr>
+                        <th colspan="2">Su calificacion es de</th>
+                        <th colspan="2">5</th>
+                    </tr>
+
+                </table>
+            </form>
+
+        </div>
+    </div>
+    <button onclick="evaluar()">EVALUAR</button>
+    <script src="ejercicio.js"></script>
+</body>
+
+</html>
