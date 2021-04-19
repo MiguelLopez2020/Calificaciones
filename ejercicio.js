@@ -24,6 +24,7 @@ function evaluar() {
     var socTot = (parseFloat((matSoc + evaSoc + asiSoc) / 3))
     var spaTot = (parseFloat((matSpa + evaSpa + asiSpa) / 3))
     var artTot = (parseFloat((matArt + evaArt + asiArt) / 3))
+    
 
     if (parseInt((matTot + sciTot + socTot + spaTot + artTot) / 5) >= 3.5) {
         alert("Aprueba el periodo academico")
